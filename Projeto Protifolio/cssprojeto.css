@@ -1,0 +1,80 @@
+header {
+    background-color: #810C48;
+    text-align: center;
+      padding: 0.1vh;
+     
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace ;
+    background-image: url(img/sunset-1920-x-1080-background-w11h6tfqu5an6vvc.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+        background-color: #C5C2E3;
+        margin: 0 20vw 20vh 20vw;
+        padding: 3vw;
+    }
+     .inicio {
+                position: relative;
+                right: 0vw;
+            }
+
+            .Sobremim{
+                position: relative;
+                right: 0vw;
+            }
+
+            .Projetos {
+                position: relative;
+                left: 3vw;
+            }
+
+            .Contatos {
+                position: relative;
+                left: 6vw;
+            }
+
+
+.perfil {
+        padding-right: 20vw;
+    }
+      .nome {
+            position: relative;
+            left: 18vw;
+            top: -40vh;
+            font-size: 3vw;
+        }
+
+        .fotoperfil {
+            position: relative;
+            border-radius: 1vw;
+            height: 40vh;
+        }
+         .info {
+            position: relative;
+            line-height: 2.5vh;
+            left: 18vw;
+            top: -40vh;
+            font-size: 1vw;
+        }
+
+        
+         footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 4vh;
+        font-size: 0.8vw;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
