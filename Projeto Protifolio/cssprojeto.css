@@ -15,66 +15,96 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.box{
+    width:5vw ;
+    background-color: #ffba6b;
+    height: 5vh;
+    border-radius: 15px;
 
+    
+}
+.box:hover{
+    background-color:rgb(161, 85, 161);
+}
 
 
 .container {
-        background-color: #ffba6b;
-        margin: 0 20vw 20vh 20vw;
-        padding: 3vw;
-    }
-     .inicio {
-                position: relative;
-                right: 0vw;
-            }
-
-            .Sobremim{
-                position: relative;
-                right: 0vw;
-            }
-
-            .Projetos {
-                position: relative;
-                left: 3vw;
-            }
-
-            .Contatos {
-                position: relative;
-                left: 6vw;
-            }
-
+    background-color: #ffba6b;
+    margin: 0 20vw 20vh 20vw;
+    padding: 3vw;
+}
 
 .perfil {
-        padding-right: 20vw;
-    }
-      .nome {
-            position: relative;
-            left: 18vw;
-            top: -40vh;
-            font-size: 3vw;
-        }
+    display:flex;
+    padding-right: 20vw;
+}
 
-        .fotoperfil {
-            position: relative;
-            border-radius: 1vw;
-            height: 40vh;
-        }
-         .info {
-            position: relative;
-            line-height: 2.5vh;
-            left: 18vw;
-            top: -40vh;
-            font-size: 1vw;
-        }
+.fotoperfil {
+    position: relative;
+    border-radius: 1vw;
+    height: 40vh;
+}
 
-        
-         footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-        height: 4vh;
-        font-size: 0.8vw;
-        color: rgb(255, 255, 255);
-        text-align: center;
-    }
+#cabeça{
+    position:relative;
+    left:90px;
+}
+
+    
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 4vh;
+    font-size: 0.8vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #810C48;
+    font-size: 17px;
+}
+
+#barrigudos{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#fotes{
+    display:flex;
+    flex-wrap:wrap ;
+}
+#film{
+    display:flex;
+    flex-wrap: wrap;
+}
+#seri{
+    display: flex;
+    flex-wrap: wrap;
+}
+#anim{
+    display: flex;
+    flex-wrap: wrap;
+}
+#for{
+    background-color: #810C48;
+    padding: 2vw;
+    font-size:20px ;
+    border-radius: 40px;
+    color: rgb(250, 202, 143);
+}
+.text{
+    font-size: 18px;
+    text-align:justify ;
+}
+.info{
+    font-size: 17px;
+
+}
+table{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-size:17px;
+    width: 90%;
+    background-color:#f8b9da;
+}
+
