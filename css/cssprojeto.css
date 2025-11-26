@@ -59,7 +59,7 @@ footer {
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: auto;
     height: 4vh;
     font-size: 0.8vw;
     color: rgb(0, 0, 0);
@@ -121,3 +121,4 @@ thead{
 .iga{
     margin-left: 3vw;
 }
+
